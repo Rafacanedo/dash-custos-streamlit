@@ -6,8 +6,7 @@ import plotly.graph_objects as go
 import io
 import re
 from process_rg import AnalisadorRG
-from streamlit_pivottable import streamlit_pivottable
-import pygwalker as pyg
+
 
 # Configuração da Página
 st.set_page_config(page_title="Dashboard de Custos Analítico", layout="wide", page_icon="📊")
